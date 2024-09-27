@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.invoice-cta {
+  height: 100vh;
+  background: url("/inv.png");
+  //give this image so it take full widh and hieght and cover the whole hiugh of 100vh and width as 100vw
+
+  // background-size: cover;
+  //give over to image
+  background-color: rgba(0, 0, 0, 0.5);
+
+  //give shadow to this image
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  opacity: 30;
+  //give z index to low
+  z-index: -1;
+  background-repeat: no-repeat;
+
+  background-position: center center;
+}
